@@ -1,6 +1,6 @@
 #This is a simple Tip + Meal Calculator
 
-name = raw_input("What was the name of the resturant that visited?")
+name = raw_input("What was the name of the resturant that you visited?")
 meal = raw_input("What was the value of your meal excluding taxes")
 tax = raw_input("What is the Tax in your location?")
 totalwtax = meal + meal * tax
