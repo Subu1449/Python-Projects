@@ -16,9 +16,9 @@ if value == 1 or value == 2:
     print totalwtax + meal * 0.15
     
 if value == 3 or value == 4:
-    print print totalwtax + meal * 0.30
+    print totalwtax + meal * 0.30
 
 else:
-    print print totalwtax + meal * 0.50
+    print totalwtax + meal * 0.50
 
 
