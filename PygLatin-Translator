@@ -1,0 +1,13 @@
+pyg = 'ay' #The main fundamental of PygLatin language is "ay." Thus I introduce the variable here.
+
+original = raw_input('Enter a word:') #Here are the variables are listed below! 
+word = original.lower()
+first = str(word)[0]
+my_word = str(word) + pyg
+new_word = str(word)[1:] + str(word)[0] + pyg
+
+if len(original) > 0 and word.isalpha(): #Checks to make sure the word is an alpha value
+    if first == "a" or first == "e" or first == "i" or first == "o" or first == "u":                                 
+        print my_word #Prints the word if first letter is a vowel.
+    else:
+        print new_word #Prints the word if first letter is a consonant.
